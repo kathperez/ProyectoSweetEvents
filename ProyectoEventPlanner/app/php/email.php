@@ -1,8 +1,9 @@
 <?php
-if (isset($_POST['submit'])) {
 /**
  * @author Cristhian Martinez
  */
+if (isset($_POST['submit'])) {
+
     $correoDestino = "sweeteventsulacit@gmail.com"; //Definicion del correo al que van a llegar los mensajes
     $asunto = "Validacion de Empresa"; //Asunto de los correos
 
