@@ -1,0 +1,117 @@
+input[type=text], input[type=number], input[type=link], select {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 45%;
+}
+
+input[type=file] {
+    font-family: 'Poppins';
+    padding: 14px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+#content {
+    margin-left: 80px;
+    margin-top: 120px;
+    width: 75%;
+}
+
+.navbar{
+    background-color: F3F3FD;
+    padding: 1% 0;
+    font-size: 15px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a{
+    color: #7F7F90
+}
+
+.texto-landing{
+    color: #7F7F90;
+}
+.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a:active{
+    color: #B7939A;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.textoHome{
+    display: table-cell;
+    padding-right: 700px;
+    padding-top: 70px;
+    text-align:center;
+    vertical-align: middle;
+    color: #4F494A;
+    font-family: 'Poppins Light';
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+footer{
+    width: 100%;
+}
+
+.contact-text{
+    text-decoration: none; 
+    color:#3F3F4D; 
+    font-family: 'Sacramento', 'sans-serif'; 
+    font-size: 40px;
+}
+
+.contact-text:hover{
+    text-decoration: none; 
+    color:#8F666E; 
+    font-family: 'Sacramento', 'sans-serif'; 
+    font-size: 40px;
+}
+.fa{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 25px;
+    color:#B7939A;
+}
+
+.fa:hover{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 25px;
+    color:#8F666E;  
+}
+
+h1 {
+    color: #4F494A;
+    font-family: 'Poppins Light';
+    text-transform: uppercase;
+    font-size: 30px;
+}
