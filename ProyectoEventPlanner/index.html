@@ -21,17 +21,27 @@
           width: 100%;
           height: 100%;
         }
+        .navStyle{
+          font-family: 'Raleway';
+          font-size: 16px;
+          font-weight: bold;
+        }
+        .navSub{
+          font-family: 'Raleway';
+          font-size: 16px;
+        }
+
 </style>
 </head>
 <body>
   <!--Barra de Navegación-->
-  <nav class="navbar navbar-expand-sm navbar-light  " style="color:#FFFFFF; ">
+  <nav class="navbar navbar-expand-sm navbar-light " style="color:#FFFFFF; ">
     <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto" style="font-family: 'Raleway'" >
+      <ul class="navbar-nav ml-auto navStyle">
         <li class="nav-item ">
           <a class="nav-link" href="index.html" ><b>Inicio </b></a>
         </li>
@@ -40,13 +50,13 @@
           <!-- Despegable de Servicios -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><b>Servicios</b></a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item menu" href="banquetes.html"><b>Banquetes</b></a>
-              <a class="dropdown-item menu" href="decoraciones.html"><b>Decoraciones</b></a>
-              <a class="dropdown-item menu" href="fotografos.html"><b>Fotógrafos</b></a>
-              <a class="dropdown-item menu" href="locales.html"><b>Locales</b></a>
-              <a class="dropdown-item menu" href="papeleria.html"><b>Papelería</b></a>
-              <a class="dropdown-item menu" href="pasteleria.html"><b>Pastelería</b></a>
+            <div class="dropdown-menu navSub">
+              <a class="dropdown-item navSub" href="banquetes.html">Banquetes</a>
+              <a class="dropdown-item navSub" href="decoraciones.html">Decoraciones</a>
+              <a class="dropdown-item navSub " href="fotografos.html">Fotógrafos</a>
+              <a class="dropdown-item navSub" href="locales.html">Locales</a>
+              <a class="dropdown-item navSub" href="papeleria.html">Papelería</a>
+              <a class="dropdown-item navSub" href="pasteleria.html">Pastelería</a>
             </div>
           </li>
           <li class="nav-item">
@@ -87,10 +97,6 @@
      </div>
      <div class="carousel-item">
        <img src="img/fondo3.png" alt="New York" width="1100" height="500">
-       <div class="carousel-caption">
-         <!--Texto en imagen-->
-         <h3>Disfruta tu día especial</h3>
-       </div>
      </div>
    </div>
 
