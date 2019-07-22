@@ -8,19 +8,19 @@ if (isset($_POST['submit'])) {
     $asunto = "Validacion de Empresa"; //Asunto de los correos
 
     //Se obtiene el texto de los campos en el form
-    $empresa = $_POST['empresa']; 
+    $empresa = $_POST['empresa'];
     $correo = $_POST['correo'];
     $telefono = $_POST['telefono'];
 
     //Se le da formato al mensaje
-    $mensaje = "Empresa: " . $empresa . "\n" . 
+    $mensaje = "Empresa: " . $empresa . "\n" .
     "Correo: " . $correo . "\n" .
     "Telefono: " . $telefono . "\n" .
     "Mensaje: \n";
 
     //Se agrega el texto del mensaje al correo
     $mensaje .= $_POST['mensaje'];
- 
+
     //Se envia el correo a la empresa
     mail($correoDestino, $asunto, $mensaje);
 
@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
 
     //Se envia una copia del mensaje al correo indicado por el cliente
     mail($correo, $asunto, $mensajeCliente);}
-    header('Location: http://localhost/ProyectoSweetEvents/ProyectoEventPlanner/index.html');
+    header('Location: http://localhost:82/GitHubWeb/ProyectoEventPlanner/index.html');
     exit;
 
 ?>

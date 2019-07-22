@@ -18,21 +18,35 @@
 
 </head>
 <body>
-    <nav class="navbar-nav  navbar-light">
-
-
-                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a><!--Clase para el Logo-->
-
-            <div class="collapse navbar-collapse" id="navbar-collapse-main">
-                <ul class=" navbar-nav"><!--Para que se desplieguen a la derecha-->
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link"  href="sobreNosotros.html">Sobre Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactenos.html">Contáctenos</a></li>
-                </ul>
+  <nav class="navbar navbar-expand-sm navbar-light  " style="color:#FFFFFF; ">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto" style="font-family: 'Raleway'" >
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobreNosotros.html">Sobre Nosotros</a>
+          <!-- Despegable de Servicios -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Servicios</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="banquetes.html">Banquetes</a>
+              <a class="dropdown-item" href="decoraciones.html">Decoraciones</a>
+              <a class="dropdown-item" href="fotografos.html">Fotógrafos</a>
+              <a class="dropdown-item" href="locales.html">Locales</a>
+              <a class="dropdown-item" href="papeleria.html">Papelería</a>
+              <a class="dropdown-item" href="pasteleria.html">Pastelería</a>
             </div>
-
-    </nav>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactenos.html">Contáctenos</a>
+          </li>
+        </ul>
+      </nav>
 
     <div class="container">
       <div id="tablaFotografos"></div>

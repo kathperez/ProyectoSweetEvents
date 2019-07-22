@@ -30,7 +30,7 @@ html, body{
 .home{
     background-image: url(../img/fondo.png);
     display: table;
-    width: 100%; 
+    width: 100%;
     height: 100%;
     position: relative;
     background-size: cover;
@@ -59,7 +59,7 @@ html, body{
     font-family: sans-serif;
     font-size: 18px;
     padding: 10px;
-        
+
 }
 
 
@@ -76,16 +76,16 @@ footer{
 }
 
 .contact-text{
-    text-decoration: none; 
-    color:#3F3F4D; 
-    font-family: 'Sacramento', 'sans-serif'; 
+    text-decoration: none;
+    color:#3F3F4D;
+    font-family: 'Sacramento', 'sans-serif';
     font-size: 40px;
 }
 
 .contact-text:hover{
-    text-decoration: none; 
-    color:#8F666E; 
-    font-family: 'Sacramento', 'sans-serif'; 
+    text-decoration: none;
+    color:#8F666E;
+    font-family: 'Sacramento', 'sans-serif';
     font-size: 40px;
 }
 .fa{
@@ -99,20 +99,46 @@ footer{
     text-decoration: none;
     padding: 18px;
     font-size: 25px;
-    color:#8F666E;  
+    color:#8F666E;
+}
+
+.colorRed{
+  color: red;
+
+}
+.colorAqua{
+    color:#66CDAA;
+}
+.colorN{
+    color:#66CDAA;
+}
+.bg-Color{
+  background-color: #66CDAA;
+}
+.formFormat{
+  float: left;
+  padding-left: 45px;
+  font-size: 17px;
+}
+.diy{
+  font-size: 18px;
+}
+.menu{
+
+font-size: 15px;
 }
 
 .fondo {
-  background: rgb(0, 0, 0, 0.3);
+  background: #FFFFFF;
   position: fixed;
   top: 0;
-  bottom: 0; 
+  bottom: 0;
   right: 0;
   left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  visibility: hidden; 
+  visibility: hidden;
 }
 
 .fondo.active {
@@ -120,12 +146,12 @@ footer{
 }
 
 .ventana {
-  background: #f8f8f8;
+  background: #FFFFFF;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
   border-radius: 3px;
-  font-family: 'Poppins';
-  padding: 20px;
+  font-family: 'Raleway';
   text-align: center;
+  padding: 18px;
   width: 500px;
   transition: .3s ease all;
   transform: scale(0.7);
@@ -134,7 +160,7 @@ footer{
 }
 
 .ventana .cerrarVentana{
-  
+
   font-size: 25px;
   line-height: 16px;
   font-weight: bold;
@@ -146,16 +172,16 @@ footer{
 }
 
 .ventana .cerrarVentana:hover{
-  color: #3C9523;
+  color: #66CDAA;
 }
 
 .ventana h3 {
-    
+
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 10px;
     margin-top: 10px;
-  color: #3C9523;
+  color: #66CDAA;
 
 }
 
@@ -197,8 +223,8 @@ footer{
     width: 85%;
     border: none;
     color: white;
-    background: #3C9523;
-    font-family: 'Poppins';
+    background-color: #66CDAA;
+    font-family: 'Raleway';
     font-size: 16px;
     cursor: pointer;
     border-radius: 8px;

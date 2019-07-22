@@ -1,13 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+
 html, body{
     height: 100%;
     width: 100%;
+    font-family: 'Raleway';
+}
+
+.font-Raleway{
+  font-family: 'Raleway';
+  font-size: 15px;
+
 }
 
 .navbar{
-    background-color: F3F3FD;
     padding: 1% 0;
     font-size: 15px;
-    font-family: 'Poppins';
+    font-family: 'Raleway';
     text-transform: uppercase;
 }
 
@@ -22,6 +30,7 @@ html, body{
 
 .texto-landing{
     color: #7F7F90;
+    font-family: 'Raleway';
 }
 .navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a:active{
     color: #B7939A;

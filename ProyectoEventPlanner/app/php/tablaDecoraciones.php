@@ -64,5 +64,6 @@
       <?php
 
         }
+        $close = closeConnection($conMySql);
        ?>
 </table>

@@ -1,5 +1,4 @@
-Pastelerialass="table-bordeless" style="font-family: 'Raleway', serif;">
-
+<table class="table-bordeless" style="font-family: 'Raleway', serif;">
 
       <?php
       include_once("connection.php");
@@ -62,5 +61,6 @@ Pastelerialass="table-bordeless" style="font-family: 'Raleway', serif;">
       <?php
 
         }
+        $close = closeConnection($conMySql);
        ?>
 </table>

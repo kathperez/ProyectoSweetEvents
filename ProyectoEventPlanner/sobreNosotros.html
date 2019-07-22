@@ -9,36 +9,80 @@
     <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <!--CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Para iconos de facebook y demás-->
     <link rel="stylesheet" href="css/sobreNosotros.css"><!--Conectar con css style-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <style media="screen">
+    .padding {
+        padding: 40px 0;
+    }
+    .p-left{
+    padding-left: 30px;
+
+    }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid"> 
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a><!--Clase para el Logo-->
+  <!--Barra de Navegación-->
+  <nav class="navbar navbar-expand-sm navbar-light  " style="color:#FFFFFF; ">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto" style="font-family: 'Raleway'" >
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobreNosotros.html">Sobre Nosotros</a>
+          <!-- Despegable de Servicios -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Servicios</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="banquetes.html">Banquetes</a>
+              <a class="dropdown-item" href="decoraciones.html">Decoraciones</a>
+              <a class="dropdown-item" href="fotografos.html">Fotógrafos</a>
+              <a class="dropdown-item" href="locales.html">Locales</a>
+              <a class="dropdown-item" href="papeleria.html">Papelería</a>
+              <a class="dropdown-item" href="pasteleria.html">Pastelería</a>
             </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse-main">
-                <ul class="nav navbar-nav navbar-right"><!--Para que se desplieguen a la derecha-->
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="contactenos.html">Contáctenos</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-    <div class="padding">
-        <div class="container">
-            <div class="row"> <!--Incluye ambas columnas 6 y 6=12-->
-                <div class="col-sm-12">
-                    <h4>¿Quiénes Somos?</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur perspiciatis totam cumque ad, dolorem eaque quia praesentium ipsa aperiam maxime quasi quidem illo quos necessitatibus molestias nisi, illum consectetur! Fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nesciunt nisi, est illum esse consectetur ab autem eum sapiente aliquam exercitationem quia fugiat expedita nemo porro eaque? Quis, quae similique!</p>
-                    </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactenos.html">Contáctenos</a>
+          </li>
+        </ul>
+      </nav>
+      <!--Fin de Barra de Navegación-->
+
+
+        <div class=" ">
+            <div class="container">
+                <div class="row"> <!--Incluye ambas columnas 6 y 6=12-->
+                    <div class="col-sm-6 text-justify bg-transparent padding">
+                        <h2 style="color:#66CDAA">¿Quiénes Somos?</h2>
+                        <br>
+                        <p class="text-justify" style="font-size:18px;">Queremos ofrecerte la mejor experiencia en esos
+                        en donde necesitas organizar un evento ya sea: bodas, bautizos, cumpleaños, eventos corporativos, entre otros,
+                        te ofrecemos una amplia gama de las mejores compañias que ofrecen servicios de fotografía, catering,
+                        locales, decoración, pastelerías, y más.<br>Visita nuestro directorio de empresas, y conoce
+                        las mejores empresas para organización de eventos de Costa Rica.<br>
+                        <b >¡Somos tu mejor opción para planificar ese evento de tus sueños!</b>
+                    </p>
+                          <br>
+
+                        </div>
+                        <div class="col-sm-6 ">
+                          <img src="img/aboutus.jpg" class="p-left" style="width: 90%;"  alt="">
+
+                        </div>
                 </div>
             </div>
         </div>
+
 </body>
 </html>

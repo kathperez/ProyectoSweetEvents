@@ -4,6 +4,7 @@
 
 
       <?php
+
       include_once("connection.php");
   		$conMySql = connecting();
 
@@ -64,5 +65,6 @@
       <?php
 
         }
+        $close = closeConnection($conMySql);
        ?>
 </table>
