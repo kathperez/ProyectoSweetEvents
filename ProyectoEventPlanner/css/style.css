@@ -71,10 +71,6 @@ html, body{
     width: 100%;
 }
 
-footer{
-    width: 100%;
-}
-
 .contact-text{
     text-decoration: none;
     color:#3F3F4D;
@@ -176,13 +172,11 @@ font-size: 15px;
 }
 
 .ventana h3 {
-
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 10px;
-    margin-top: 10px;
+  margin-top: 10px;
   color: #66CDAA;
-
 }
 
 .ventana p {
@@ -195,53 +189,75 @@ font-size: 15px;
   transform: scale(1);
 }
 
-.ventana form .formulario input{
-
+form .formulario input{
   margin-bottom: 20px;
   width: 85%;
-    text-align: left;
-    height: 30px;
-    border: 1px solid #BBBBBB;
-    text-indent: 0.5em;
-    border-radius: 8px;
+  text-align: left;
+  height: 30px;
+  border: 1px solid #BBBBBB;
+  text-indent: 0.5em;
+  border-radius: 8px;
 }
 
-.ventana form .formulario textarea{
-
-    height: 100px;
-    width: 85%;
-    resize: none;
-    border-radius: 8px;
-    text-indent: 0.5em;
+form .formulario textarea{
+  height: 100px;
+  width: 85%;
+  resize: none;
+  border-radius: 8px;
+  text-indent: 0.5em;
 }
 
-.ventana form .enviar {
-
-    margin-top: 15px;
-    padding: 0 20px;
-    height: 37px;
-    width: 85%;
-    border: none;
-    color: white;
-    background-color: #66CDAA;
-    font-family: 'Raleway';
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 8px;
+form .enviar {
+  margin-top: 15px;
+  padding: 0 20px;
+  height: 37px;
+  width: 85%;
+  border: none;
+  color: white;
+  background-color: #66CDAA;
+  font-family: 'Raleway';
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
-.ventana form .enviar:hover {
-
-    background-color: grey;
+.container form .enviar {
+  width: 20%;
+  float: right;
 }
 
-  .navStyle{
-    font-family: 'Raleway';
-    font-size: 16px;
-    font-weight: bold;
-  }
-  .navSub{
-    font-family: 'Raleway';
-    font-size: 16px;
-    font-weight: bold;
-  }
+form .enviar:hover {
+  background-color: grey;
+}
+
+.container .formulario{
+  width: 65%;
+}
+
+.container form .formulario input, textarea {
+  float: right;
+  margin-bottom: 0;
+}
+
+.container form .formulario textarea {
+  height: 50%;
+}
+
+.container form .formulario label {
+  margin-bottom: 20px;
+}
+
+.navStyle{
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: bold;
+}
+.navSub{
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px;
+}

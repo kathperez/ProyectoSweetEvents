@@ -41,3 +41,137 @@ html, body{
   font-family: 'Raleway';
 
 }
+
+.contact-text{
+    text-decoration: none;
+    color:#3F3F4D;
+    font-family: 'Sacramento', 'sans-serif';
+    font-size: 40px;
+}
+
+.contact-text:hover{
+    text-decoration: none;
+    color:#8F666E;
+    font-family: 'Sacramento', 'sans-serif';
+    font-size: 40px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.fa{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 25px;
+    color:#B7939A;
+}
+
+.fa:hover{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 25px;
+    color:#8F666E;
+}
+
+
+.fondo {
+  background: #FFFFFF;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.fondo.active {
+  visibility: visible;
+}
+
+.ventana {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 3px;
+  font-family: 'Raleway';
+  text-align: center;
+  padding: 18px;
+  width: 500px;
+  transition: .3s ease all;
+  transform: scale(0.7);
+  opacity: 0;
+
+}
+
+.ventana .cerrarVentana{
+
+  font-size: 25px;
+  line-height: 16px;
+  font-weight: bold;
+  display: block;
+  text-align: right;
+  color: grey;
+  /*float: right;*/
+    cursor: pointer;
+}
+
+.ventana .cerrarVentana:hover{
+  color: #66CDAA;
+}
+
+.ventana h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #66CDAA;
+}
+
+.ventana p {
+  font-size: 16px;
+  margin-bottom: 40px
+}
+
+.ventana.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+form .formulario input{
+  margin-bottom: 20px;
+  width: 85%;
+  text-align: left;
+  height: 30px;
+  border: 1px solid #BBBBBB;
+  text-indent: 0.5em;
+  border-radius: 8px;
+}
+
+form .formulario textarea{
+  height: 100px;
+  width: 85%;
+  resize: none;
+  border-radius: 8px;
+  text-indent: 0.5em;
+}
+
+form .enviar {
+  margin-top: 15px;
+  padding: 0 20px;
+  height: 37px;
+  width: 85%;
+  border: none;
+  color: white;
+  background-color: #66CDAA;
+  font-family: 'Raleway';
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+form .enviar:hover {
+  background-color: grey;
+}

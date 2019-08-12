@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cont&aacute;ctenos</title>
+    <!--Tipografías-->
+    <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,500&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css"><!--Conectar con css style-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--Para iconos de facebook y demás-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Barra de Navegación-->
+    <nav class="navbar navbar-expand-sm navbar-light " style="color:#FFFFFF; ">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto navStyle">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html"><b>Inicio </b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobreNosotros.html"><b>Sobre Nosotros</b></a>
+                    <!-- Despegable de Servicios -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><b>Servicios</b></a>
+                    <div class="dropdown-menu navSub">
+                        <a class="dropdown-item navSub" href="banquetes.html">Banquetes</a>
+                        <a class="dropdown-item navSub" href="decoraciones.html">Decoraciones</a>
+                        <a class="dropdown-item navSub " href="fotografos.html">Fotógrafos</a>
+                        <a class="dropdown-item navSub" href="locales.html">Locales</a>
+                        <a class="dropdown-item navSub" href="papeleria.html">Papelería</a>
+                        <a class="dropdown-item navSub" href="pasteleria.html">Pastelería</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactenos.html"><b>Contáctenos</b></a>
+                </li>
+            </ul>
+    </nav>
+    <!--Fin de Barra de Navegación-->
+        <div class="container">
+        <h3 class="colorN">Cont&aacute;ctenos</h3>
+        <form action="app/php/email.php" method="POST" name="contactForm">
+            <div class="formulario">
+                <label>Nombre <b class="colorRed">*</b></label>
+                <input name="empresa" type="text" required>
+                <label>E-mail <b class="colorRed">*</b></label>
+                <input name="correo" type="text" required>
+                <label>Teléfono <b class="colorRed">*</b></label>
+                <input name="telefono" type="number" required>
+                <label>Mensaje <b class="colorRed">*</b></label>
+                <textarea name="mensaje" type="text" required></textarea>
+            </div>
+            <input type="submit" name="submit" class=" enviar " value="Enviar"></input>
+        </form>
+        </div>
+
+    <!--Pie de pagina-->
+    <footer class="container-fluid text-center">
+        <div row>
+            <div class="col-sm-4" style="float: right;">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <div class="col-sm-4">
+                <a id="abrirVentana" class="contact-text">Contáctenos</a>
+                <br>
+            </div>
+            <!--Logos de redes sociales-->
+            <div class="col-sm-4">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

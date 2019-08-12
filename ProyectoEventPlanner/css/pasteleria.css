@@ -70,3 +70,34 @@ html, body{
     color:#3B6CD1;  
 }
 
+.contact-text{
+    text-decoration: none;
+    color:#3F3F4D;
+    font-family: 'Sacramento', 'sans-serif';
+    font-size: 40px;
+}
+
+.contact-text:hover{
+    text-decoration: none;
+    color:#8F666E;
+    font-family: 'Sacramento', 'sans-serif';
+    font-size: 40px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.fa{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 25px;
+    color:#B7939A;
+}
+
+.fa:hover{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 25px;
+    color:#8F666E;
+}
