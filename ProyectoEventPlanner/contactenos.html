@@ -49,7 +49,9 @@
             </ul>
     </nav>
     <!--Fin de Barra de Navegación-->
-        <div class="container">
+
+    <!--Inicio de formulario de contacto-->
+    <div class="container" style="float: left;">
         <h3 class="colorN">Cont&aacute;ctenos</h3>
         <form action="app/php/email.php" method="POST" name="contactForm">
             <div class="formulario">
@@ -61,10 +63,11 @@
                 <input name="telefono" type="number" required>
                 <label>Mensaje <b class="colorRed">*</b></label>
                 <textarea name="mensaje" type="text" required></textarea>
+                <input type="submit" name="submit" class=" enviar " value="Enviar"></input>
             </div>
-            <input type="submit" name="submit" class=" enviar " value="Enviar"></input>
         </form>
-        </div>
+    </div>
+    <!--Fin de formulario de contacto-->
 
     <!--Pie de pagina-->
     <footer class="container-fluid text-center">

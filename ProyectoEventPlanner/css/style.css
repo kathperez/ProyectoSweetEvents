@@ -62,7 +62,6 @@ html, body{
 
 }
 
-
 .padding {
     padding: 70px 0;
 }
@@ -152,19 +151,16 @@ font-size: 15px;
   transition: .3s ease all;
   transform: scale(0.7);
   opacity: 0;
-
 }
 
 .ventana .cerrarVentana{
-
   font-size: 25px;
   line-height: 16px;
   font-weight: bold;
   display: block;
   text-align: right;
   color: grey;
-  /*float: right;*/
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .ventana .cerrarVentana:hover{
@@ -201,7 +197,7 @@ form .formulario input{
 
 form .formulario textarea{
   height: 100px;
-  width: 85%;
+  width: 100%;
   resize: none;
   border-radius: 8px;
   text-indent: 0.5em;
@@ -219,11 +215,13 @@ form .enviar {
   font-size: 16px;
   cursor: pointer;
   border-radius: 8px;
+  text-align: center;
 }
 
-.container form .enviar {
+.formulario .enviar {
   width: 20%;
-  float: right;
+  height: 37px;
+  text-align: center;
 }
 
 form .enviar:hover {
