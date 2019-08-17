@@ -1,72 +1,21 @@
-html, body{
-    height: 100%;
-    width: 100%;
-}
-
-.navbar{
-    background-color: F3F3FD;
-    padding: 1% 0;
-    font-size: 15px;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-}
-
-.navbar-brand{
-    min-height: 55px;
-    padding: 0 15px 5px;
-}
-
-.navbar-default .navbar-nav li a{
-    color: #7F7F90
-}
-
-.texto-landing{
-    color: #7F7F90;
-}
-.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a:active{
-    color: #B7939A;
-}
-
-.padding {
-    padding: 150px 0;
-}
 .card {
     background: #fff;
     display: inline-block;
     border: 1px solid #ddd;
   }
 
-  .image {
-    float: right;
-    width:550px;
-    height: 400px;
-  }
-
-
-  .content {
-    float: left;
-    height: 400px;
-    width: 550px;
-    overflow: hidden;
-    padding: 5px;
-  }
-
-  .content h4 {
-    margin: 5px 0;
-  }
-
-  
-  .fa{
-    text-decoration: none;
-    padding: 8px;
-    font-size: 20px;
-    color:#000;
+.image {
+  float: right;
+  width:550px;
+  height: 400px;
 }
-
-.fa:hover{
-    text-decoration: none;
-    padding: 8px;
-    font-size: 20px;
-    color:#3B6CD1;  
+.content {
+  float: left;
+  height: 400px;
+  width: 550px;
+  overflow: hidden;
+  padding: 5px;
 }
-
+.content h4 {
+  margin: 5px 0;
+}

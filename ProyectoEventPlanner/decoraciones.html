@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
     <!--CSS-->
-    <link rel="stylesheet" href="css/decoraciones.css"><!--Conectar con css style-->
+    <link rel="stylesheet" href="css/style.css"><!--Conectar con css style-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Para iconos de facebook y demás-->
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
@@ -66,6 +66,45 @@
       <div id="tablaDecoraciones"></div>
     </div>
 
+    <!--Ventana emergente de Contactenos-->
+    <div class="fondo" id="fondo">
+      <div class="ventana" id="ventana">
+        <span id="cerrarVentana" class="cerrarVentana">&times;</span>
+        <h3 class="colorN">Cont&aacute;ctenos</h3>
+        <form action="app/php/email.php" method="POST" name="contactForm">
+          <div class="formulario">
+            <label class="formFormat">Nombre <b class="colorRed">*</b></label>
+            <input name="empresa" type="text" required>
+            <label class="formFormat">E-mail <b class="colorRed">*</b></label>
+            <input name="correo" type="text" required>
+            <label class="formFormat">Teléfono <b class="colorRed">*</b></label>
+            <input name="telefono" type="number" required>
+            <label class="formFormat"> Mensaje <b class="colorRed">*</b></label>
+            <textarea name="mensaje" type="text" required></textarea>
+          </div>
+          <input type="submit" name="submit" class=" enviar " value="Enviar"></input>
+        </form>
+      </div>
+    </div>
+
+  <!--Pie de pagina-->
+  <footer class="container-fluid text-center">
+    <div row>
+      <div class="col-sm-4" style="float: right;">
+        <img src="img/logo.png" alt="Logo">
+      </div>
+      <div class="col-sm-4">
+        <a id="abrirVentana" class="contact-text">Contáctenos</a>
+        <br>
+      </div>
+      <!--Logos de redes sociales-->
+      <div class="col-sm-4">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </footer>
 
   </body>
 
@@ -74,4 +113,6 @@
       $('#tablaDecoraciones').load('app/php/tablaDecoraciones.php');
     });
   </script>
+  <script src="app/js/contactenos.js"></script>
+
 </html>
