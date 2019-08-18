@@ -80,7 +80,7 @@
             <label class="formFormat"> Mensaje <b class="colorRed">*</b></label>
             <textarea name="mensaje" id="mensaje" type="text" required></textarea>
           </div>
-          <input id="submit" type="submit" name="submit" class=" enviar " onmouseover="validate()" value="Enviar"></input>
+          <input id="submit" type="submit" name="submit" class=" enviar " onfocus="validate()" onblur="this.disabled = false;" value="Enviar"></input>
         </form>
       </div>
     </div>
