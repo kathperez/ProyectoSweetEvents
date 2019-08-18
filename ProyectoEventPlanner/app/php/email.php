@@ -1,5 +1,4 @@
 <?php
-<?php
 /**
  * @author Cristhian Martinez
  */
@@ -32,9 +31,6 @@ if (isset($_POST['submit'])) {
     $mensaje_error = "";
     $correo_excepcion = "/^[0-9]+$/";
 
-    if (!preg_match($correo_excepcion, $correo)) {
-    $mensaje_error .= '<b> El numero de telefono no es valido </b> <br/>';
-    }
     /*
     En caso si se necesita pero es la excepcion solo permitir nombre sin numero
     $empresa_excepcion = "/^[A-Za-z.'-]+$/";   
@@ -68,7 +64,7 @@ if (isset($_POST['submit'])) {
 
     //Se envia una copia del mensaje al correo indicado por el cliente
     mail($correo, $asunto, $mensajeCliente);}
-    header('Location: http://localhost:82/GitHubWeb/ProyectoEventPlanner/index.html');
+    header('Location: http://localhost/ProyectoSweetEvents/ProyectoEventPlanner/index.html');
     exit;
 
 ?>
