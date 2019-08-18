@@ -58,7 +58,7 @@
                 <label>Nombre <b class="colorRed">*</b></label>
                 <input name="empresa" type="text" required>
                 <label>E-mail <b class="colorRed">*</b></label>
-                <input name="correo" type="text" required>
+                <input name="correo" type="text" onkeypress="validateEmail(this.innerHTML)" required>
                 <label>Teléfono <b class="colorRed">*</b></label>
                 <input name="telefono" type="number" required>
                 <label>Mensaje <b class="colorRed">*</b></label>
