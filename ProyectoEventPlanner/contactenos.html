@@ -63,8 +63,9 @@
                 <label>Teléfono <b class="colorRed">*</b></label>
                 <input name="telefono" type="number" required>
                 <label>Mensaje <b class="colorRed">*</b></label>
-                <textarea name="mensaje" id="mensaje" type="text" required></textarea>
-                <input id="submit" type="submit" name="submit" class=" enviar " onmouseover="validate()" value="Enviar"></input>
+                <input id="submit" type="submit" name="submit" class=" enviar " onblur="validate()" value="Enviar"></input>
+                <textarea name="mensaje" id="mensaje"  type="text" required></textarea>
+                <input id="submit" type="submit" name="submit" class=" enviar " value="Enviar"></input>
             </div>
         </form>
     </div>
