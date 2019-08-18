@@ -74,13 +74,13 @@
         <form action="app/php/email.php" method="POST" name="contactForm">
           <div class="formulario">
             <label class="formFormat">Nombre <b class="colorRed">*</b></label>
-            <input name="empresa" type="text" required>
+            <input name="empresa" id="nombre" type="text" required>
             <label class="formFormat">E-mail <b class="colorRed">*</b></label>
-            <input name="correo" type="text" required>
+            <input name="correo" type="text" id="email" required>
             <label class="formFormat">Teléfono <b class="colorRed">*</b></label>
             <input name="telefono" type="number" required>
             <label class="formFormat"> Mensaje <b class="colorRed">*</b></label>
-            <textarea name="mensaje" type="text" required></textarea>
+            <textarea name="mensaje" id="mensaje" type="text" required></textarea>
           </div>
           <input type="submit" name="submit" class=" enviar " value="Enviar"></input>
         </form>
